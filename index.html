@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="Refresh Shop" content="Made with HTML & CSS">
+    <meta name="author" content="Enrique Rivera I">
+    <meta name="description" content="Refreshing Drinks Landing">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="icon" href="https://res.cloudinary.com/dkwfauuct/image/upload/v1694848705/FreshshShop/gotafavicon_nqpit9.ico" type="image/png" sizes="48x48">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap">
+    <link rel="preload" as="style" href="./index.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Refresh Shop 💦| Tienda de Bebidas Refrescantes Online</title>
+</head>
+<body>
+    <header class="eri-section-header eri-layout-flex">
+        <div class="eri-section-header_layout eri-layout-flex">
+            <nav class="navbar_2 eri-layout-flex">
+                <label class="navbar_toogle" for="chkToogle">
+                    <img src="https://res.cloudinary.com/dkwfauuct/image/upload/v1694848705/FreshshShop/menu_FILL0_wght400_GRAD0_opsz48_bshiba.svg" alt="menu">
+                </label>
+                <input type="checkbox" name="chkToogle" id="chkToogle" class="chkToogle">
+                <ul class="navbar-container_2 eri-layout-flex">
+                    <li><a href="#" role="link"><span class="navLink">Inicio</span></a></li>
+                    <li><a href="#" role="link"><span class="navLink">Nosotros</span></a></li>
+                    <li><a href="#" role="link"><span class="navLink">Carrito</span></a></li>
+                    <li><a href="#" role="link"><span class="navLink">Login</span></a></li>
+                </ul>
+            </nav>
+            <a href="#" role="link" class="logo-link">
+                <img src="https://res.cloudinary.com/dkwfauuct/image/upload/v1694848706/FreshshShop/oie_transparent_d1f2se.png" alt="logo_freshshop" class="logo_freshshop">
+            </a>
+            <nav class="navbar eri-layout-flex">
+                <ul class="navbar-container eri-layout-flex">
+                    <li><a href="#" role="link"><span class="navLink">Inicio</span></a></li>
+                    <li><a href="#" role="link"><span class="navLink">Nosotros</span></a></li>
+                    <li><a href="#" role="link"><span class="navLink">Carrito</span></a></li>
+                    <li><a href="#" role="link"><span class="navLink">Login</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="eri-search-bar eri-layout-flex">
+            <input type="search" name="search" id="searchbar" placeholder="Buscar" class="searchbar">
+            <img src="https://res.cloudinary.com/dkwfauuct/image/upload/v1694848705/FreshshShop/lupa_gzq7pg.png" alt="searchImg" id="searchImg" class="searchImg">
+        </div>
+    </header>
+    <main>
+        <article>
+            <section>
+                <div class="eri-filters eri-layout-flex">
+                    <div class="eri-filters_container1 eri-layout-flex">
+                        <h3>Filtros de Busqueda</h3>
+                        <button id="clean_filters" type="button">Limpiar Filtros</button>
+                    </div>
+                    <div class="eri-filters_container eri-layout-flex">
+                        <select title="Vendedores" name="filter_seller" id="filter_seller" placeholder="Vendedores">
+                            <option value="" selected>Vendedor</option>
+                        </select>
+                        <div class="filter_price">
+                            <label for="price_search">Precio menor que:</label>
+                            <input type="number" name="price_search" id="price_search" value="0">
+                            <button id="search_button" type="button">Buscar</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="eri-section-retail eri-layout-flex">
+                <div class="eri-section-retail_title">
+                    <h1>VINOS REFRESCANTES... ELIGE!</h1>
+                </div>
+                <div class="eri-section-retail_container eri-layout-flex">
+                    <div class="eri-products eri-layout-flex">
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <p>Copyright © Fresh Shop S.A. 2023 designed by ERI</p>
+        </footer>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
